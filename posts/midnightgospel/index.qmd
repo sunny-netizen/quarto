@@ -1,5 +1,5 @@
 ---
-title: "Midnight Gospel"
+title: "Simulator"
 author: "suncloud"
 date: "2023-05-10"
 categories: [D3 HTML CSS]

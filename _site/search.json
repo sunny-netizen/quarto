@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
+    "objectID": "posts/welcome/index1.html",
+    "href": "posts/welcome/index1.html",
     "title": "Welcome To Portfolio",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
@@ -9,23 +9,16 @@
   {
     "objectID": "posts/midnightgospel/index.html",
     "href": "posts/midnightgospel/index.html",
-    "title": "Midnight Gospel",
+    "title": "Simulator",
     "section": "",
     "text": "Astronomical data with Midnight Gospel theme.\nClancy’s Multiverse Simulator with exoplanets.\nLink to Project"
-  },
-  {
-    "objectID": "posts/exomap/exomap.html",
-    "href": "posts/exomap/exomap.html",
-    "title": "sunnycloud",
-    "section": "",
-    "text": "test"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "suncloud",
     "section": "",
-    "text": "Welcome To Portfolio\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nMidnight Gospel\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
+    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
