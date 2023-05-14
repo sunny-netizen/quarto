@@ -1,0 +1,15 @@
+---
+title: "Midnight Gospel"
+author: "suncloud"
+date: "2023-05-10"
+categories: [D3 HTML CSS]
+image: "image.jpg"
+---
+
+Astronomical data with Midnight Gospel theme.
+
+Clancy's Multiverse Simulator with exoplanets.
+
+[Link to Project](https://sunny-netizen.github.io/midnightgospel/)
+
+\
