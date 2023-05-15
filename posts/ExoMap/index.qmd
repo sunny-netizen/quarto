@@ -1,7 +1,11 @@
 ---
 title: "ExoMap"
 author: "suncloud"
-date: "2023-05-10"
+date: "2023-05"
 categories: [D3, Mapbox, HTML, CSS]
-image: "image.jpg"
+image: "button-exomap.png"
 ---
+
+Celestial map of confirmed exoplanets relative to western constellations.
+
+[ExoMap](https://sunny-netizen.github.io/exomap/)

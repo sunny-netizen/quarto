@@ -1,7 +1,11 @@
 ---
-title: "ExoMap"
+title: "StoryMap"
 author: "suncloud"
-date: "2023-05-10"
+date: "2021"
 categories: [D3, Mapbox, HTML, CSS]
 image: "image.jpg"
 ---
+
+ESRI ArcGIS StoryMap for local nonprofit.
+
+Created a StoryMap for Ballona Creek Renaissance marketing and fundraising.

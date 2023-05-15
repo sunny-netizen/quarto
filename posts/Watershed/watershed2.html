@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Display buildings in 3D</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoieXVuemhhbzIxIiwiYSI6ImNreWxnbDR2ejF5MjIyd3AwNXA1cDl1eGsifQ.64sJi7Q8xOekHT7A6IljEQ';
+        const map = new mapboxgl.Map({
+            // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+            style: 'mapbox://styles/yunzhao21/cla5lxwwq002a14l7tlfl0p6w',
+            container: 'map',
+            antialias: true,
+            center: [-118.41, 34.02],//[-118.42, 34.0],
+            zoom: 11.9,
+            pitch: 72,//65,
+            bearing: 35
+        });
+
+        map.on('style.load', () => {
+            // Insert the layer beneath any symbol layer.
+            const layers = map.getStyle().layers;
+            const labelLayerId = layers.find(
+                (layer) => layer.type === 'symbol' && layer.layout['text-field']
+            ).id;
+            map.setLayoutProperty('ccusd-af7p96', 'visibility', 'visible');
+        });
+            
+            /* 
+            map.setLayoutProperty('building-extrusion', 'visibility', 'visible');
+            map.setLayoutProperty('ccusd-af7p96', 'visibility', 'visible');
+            map.setLayoutProperty('channels-shapefile-0t8g2v', 'visibility', 'visible');
+            map.setLayoutProperty('nhd-streams-medium-scale-3xvi8a', 'visibility', 'visible');
+            map.setLayoutProperty('waterbodies-d3mg6f', 'visibility', 'visible');
+            map.setLayoutProperty('boundary-bm7ctk', 'visibility', 'visible');
+            map.setLayoutProperty('city-and-unincorporated-commu-5cdplp', 'visibility', 'visible');
+            map.setLayoutProperty('hydrologic-units-wbdhu12-ca03-dk2i66 copy 1', 'visibility', 'visible');
+            map.setLayoutProperty('hydrologic-units-wbdhu12-ca03-dk2i66 copy', 'visibility', 'visible');
+            */
+           
+  
+        
+        // flying
+        let isAtStart = true;
+        let isAtStart2 = true;
+
+        const watershed = {
+            // center: [74.5, 40],
+            // zoom: 2
+            center: [-118.41, 34.02],//[-118.42, 34.0],
+            zoom: 11.9,
+            pitch: 72,//65,
+            bearing: 35
+        };
+        const football = {
+            center: [-118.402, 34.0049], //34.00343982475486, -118.4026950527803
+            zoom: 17.8,
+            pitch: 75,
+            bearing: 29
+        };
+
+        document.addEventListener('keydown', function (event) {
+            if (event.code === 'KeyF') {
+                // depending on whether we're currently at point a or b, aim for point a or b
+                const target = isAtStart ? watershed: football ; //if isAtStart true, flyto end; else, flyto start
+                isAtStart = !isAtStart; // set isAtStart to its opposite with click
+
+                map.easeTo({
+                    ...target, // Fly to the selected target
+                    duration: 8000, //199000, // Animate over 12 seconds
+                    essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+                });
+
+            }
+        });
+
+        
+
+
+
+
+    </script>
+
+</body>
+
+</html>

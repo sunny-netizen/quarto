@@ -1,24 +1,66 @@
 [
   {
-    "objectID": "posts/welcome/index1.html",
-    "href": "posts/welcome/index1.html",
-    "title": "Welcome To Portfolio",
+    "objectID": "posts/Dendrogram/index.html",
+    "href": "posts/Dendrogram/index.html",
+    "title": "Dendrogram",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "A tree of road network clusters in Europe.\nHierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. Visualization from dissertation.\nLink to Project"
   },
   {
-    "objectID": "posts/midnightgospel/index.html",
-    "href": "posts/midnightgospel/index.html",
+    "objectID": "posts/Energy/index.html",
+    "href": "posts/Energy/index.html",
+    "title": "Energy Prices",
+    "section": "",
+    "text": "A group project exploring factors influencing energy prices.\nI created the ‘Energy and Growth’ section.\nLink to Group Project"
+  },
+  {
+    "objectID": "posts/Percolation/index.html",
+    "href": "posts/Percolation/index.html",
+    "title": "Percolation",
+    "section": "",
+    "text": "Percolation process on the City of London road network.\nCode is based on dissertation.\nLink to Project"
+  },
+  {
+    "objectID": "posts/Dissertation/index.html",
+    "href": "posts/Dissertation/index.html",
+    "title": "Dissertation",
+    "section": "",
+    "text": "Dissertation: “Genetic and Cultural Correspondences with the European Road Network”\n\nAbstract\nRoad systems provide a compelling study for understanding the spatial characteristics of community structures. Road systems are historically entangled with populations across the land and have developed through centuries of creation, re-creation, destruction, and modification resulting from multi-scale dynamics and processes. Percolation analysis is an emerging method for detecting endogenous structures and hierarchical organisation in road networks, yielding nested spatial structures that have been found to correspond with communities across scales in some facets of human geography. The exploration of further facets of human geography, such as genetic and cultural geography, is inviting, as these correspondences may shed greater light on the natural relationship between human communities and road systems. This study thus seeks to compare spatial patterns in genetic and cultural values with the latest road network data of continental Europe, a largely continuous network with a legacy persisting across millenia. Implementing a percolation analysis, identifying stages of largest cluster size evolution, and deriving a hierarchical tree from critical percolation thresholds, this study first explores the structure of the road network then quantifies its associations with genetics and cultural geography with phenetic analysis, revealing a weak positive linear correlation between cultural values difference and hierarchical distance and a weak but slightly stronger positive linear correlation between genetic difference and cophenetic distance. These results suggest that levels of connectivity in the road network are more associated with genetics than cultural values, although both signals are weak.\nLink to Code"
+  },
+  {
+    "objectID": "posts/Watershed/index.html",
+    "href": "posts/Watershed/index.html",
+    "title": "Watershed",
+    "section": "",
+    "text": "Opening shot contribution for sustainability video.\nThe Culver City Unified School District (CCUSD) Green Video Project is an educational sustainability video that communicates the importance of the local Ballona Creek Watershed. It was awarded two grants for completion, one from Rotary Culver City and one from Ballona Creek Renaissance.\nI was brought on to create an animation showing the position of the school district within the Ballona Creek Watershed, continuing where drone footage ended.\nVersion 1 was an exploratory demo created prior to shooting the drone footage. I was tasked to include several checkpoints within the frames. The path of the virtual camera spirals out.\nVersion 2 was created after the drone footage was shot. The animation is set to begin matching the same view where the drone footage cuts. The virtual camera zooms out to encompass the entire the watershed."
+  },
+  {
+    "objectID": "posts/MidnightGospel/index.html",
+    "href": "posts/MidnightGospel/index.html",
     "title": "Simulator",
     "section": "",
     "text": "Astronomical data with Midnight Gospel theme.\nClancy’s Multiverse Simulator with exoplanets.\nLink to Project"
   },
   {
+    "objectID": "posts/ExoMap/index.html",
+    "href": "posts/ExoMap/index.html",
+    "title": "ExoMap",
+    "section": "",
+    "text": "Celestial map of confirmed exoplanets relative to western constellations.\nExoMap"
+  },
+  {
+    "objectID": "posts/StoryMap/index.html",
+    "href": "posts/StoryMap/index.html",
+    "title": "StoryMap",
+    "section": "",
+    "text": "ESRI ArcGIS StoryMap for local nonprofit.\nCreated a StoryMap for Ballona Creek Renaissance marketing and fundraising."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "suncloud",
+    "title": "Portfolio",
     "section": "",
-    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2023\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
+    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

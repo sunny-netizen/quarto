@@ -1,0 +1,13 @@
+---
+title: "Energy Prices"
+author: "suncloud"
+date: "2022-04"
+categories: [D3, Fullpage JS, HTML, CSS]
+image: "button-energy.png"
+---
+
+A group project exploring factors influencing energy prices.
+
+I created the 'Energy and Growth' section.
+
+[Link to Group Project](https://ankur1995.github.io/Group6DigitalViz/#sunny1)

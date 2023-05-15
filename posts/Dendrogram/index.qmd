@@ -1,7 +1,13 @@
 ---
-title: "ExoMap"
+title: "Dendrogram"
 author: "suncloud"
-date: "2023-05-10"
-categories: [D3, Mapbox, HTML, CSS]
-image: "image.jpg"
+date: "2023-03"
+categories: [D3]
+image: "tree.png"
 ---
+
+A tree of road network clusters in Europe.
+
+Hierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. Visualization from dissertation.
+
+[Link to Project](https://sunny-netizen.github.io/portfolio/html/tree.html)

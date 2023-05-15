@@ -1,7 +1,13 @@
 ---
-title: "ExoMap"
+title: "Percolation"
 author: "suncloud"
-date: "2023-05-10"
+date: "2023-02"
 categories: [D3, Mapbox, HTML, CSS]
 image: "image.jpg"
 ---
+
+Percolation process on the City of London road network.
+
+Code is based on dissertation.
+
+[Link to Project](https://sunny-netizen.github.io/portfolio/html/london.html)

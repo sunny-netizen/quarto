@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <script>
+        d3.csv('https://spreadsheets.google.com/feeds/list/{spreadsheetId}/{worksheetId}/public/values?alt=json')
+            .then(function (data) {
+                // Process the data here
+                console.log(data);
+            })
+            .catch(function (error) {
+                // Handle any errors here
+                console.log(error);
+            });
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+---
+title: "Dissertation"
+author: "suncloud"
+date: "2023-01"
+categories: [D3]
+image: "allnodes.png"
+---
+
+Dissertation: "Genetic and Cultural Correspondences with the European Road Network"
+
+### Abstract
+
+Road systems provide a compelling study for understanding the spatial characteristics of community structures. Road systems are historically entangled with populations across the land and have developed through centuries of creation, re-creation, destruction, and modification resulting from multi-scale dynamics and processes. Percolation analysis is an emerging method for detecting endogenous structures and hierarchical organisation in road networks, yielding nested spatial structures that have been found to correspond with communities across scales in some facets of human geography. The exploration of further facets of human geography, such as genetic and cultural geography, is inviting, as these correspondences may shed greater light on the natural relationship between human communities and road systems. This study thus seeks to compare spatial patterns in genetic and cultural values with the latest road network data of continental Europe, a largely continuous network with a legacy persisting across millenia. Implementing a percolation analysis, identifying stages of largest cluster size evolution, and deriving a hierarchical tree from critical percolation thresholds, this study first explores the structure of the road network then quantifies its associations with genetics and cultural geography with phenetic analysis, revealing a weak positive linear correlation between cultural values difference and hierarchical distance and a weak but slightly stronger positive linear correlation between genetic difference and cophenetic distance. These results suggest that levels of connectivity in the road network are more associated with genetics than cultural values, although both signals are weak.
+
+[Link to Code](https://github.com/sunny-netizen/SDSV/tree/main/Dissertation)
+
+![](plot_grids.png)
+
+![](allnodes.png)
+
+![](lcc123.png)

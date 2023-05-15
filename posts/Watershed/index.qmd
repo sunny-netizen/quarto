@@ -1,7 +1,17 @@
 ---
-title: "ExoMap"
+title: "Watershed"
 author: "suncloud"
-date: "2023-05-10"
+date: "2023-04"
 categories: [D3, Mapbox, HTML, CSS]
 image: "image.jpg"
 ---
+
+Opening shot contribution for sustainability video.
+
+The Culver City Unified School District (CCUSD) Green Video Project is an educational sustainability video that communicates the importance of the local Ballona Creek Watershed. It was awarded two grants for completion, one from Rotary Culver City and one from Ballona Creek Renaissance.
+
+I was brought on to create an animation showing the position of the school district within the Ballona Creek Watershed, continuing where drone footage ended.
+
+[Version 1](watershed1.html) was an exploratory demo created prior to shooting the drone footage. I was tasked to include several checkpoints within the frames. The path of the virtual camera spirals out.
+
+Version 2 was created after the drone footage was shot. The animation is set to begin matching the same view where the drone footage cuts. The virtual camera zooms out to encompass the entire the watershed.
