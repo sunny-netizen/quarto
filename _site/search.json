@@ -39,7 +39,7 @@
     "href": "posts/MidnightGospel/index.html",
     "title": "Simulator",
     "section": "",
-    "text": "Astronomical data with Midnight Gospel theme.\nClancy’s Multiverse Simulator with exoplanets.\nLink to Project"
+    "text": "The Midnight Gospel -themed exoplanets.\nConcept: Inject exoplanet data into Clancy’s Multiverse Simulator.\nLink to Project in Development"
   },
   {
     "objectID": "posts/ExoMap/index.html",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
+    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nTransportation Emissions\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -68,5 +68,12 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "posts/EIE/index.html",
+    "href": "posts/EIE/index.html",
+    "title": "Transportation Emissions",
+    "section": "",
+    "text": "Link to Group Project"
   }
 ]
