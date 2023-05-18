@@ -37,16 +37,16 @@
   {
     "objectID": "posts/MidnightGospel/index.html",
     "href": "posts/MidnightGospel/index.html",
-    "title": "Simulator",
+    "title": "Clancy’s Simulator",
     "section": "",
-    "text": "The Midnight Gospel -themed exoplanets.\nConcept: Inject exoplanet data into Clancy’s Multiverse Simulator.\nLink to Project in Development"
+    "text": "Astronomical data with a The Midnight Gospel theme.\nConcept: Exoplanets cast as “Dying Worlds” in Clancy’s Multiverse Simulator.\nLink to Project Link to code"
   },
   {
     "objectID": "posts/ExoMap/index.html",
     "href": "posts/ExoMap/index.html",
     "title": "ExoMap",
     "section": "",
-    "text": "Celestial map of confirmed exoplanets relative to western constellations.\nExoMap"
+    "text": "Link to Project Code\nCelestial map of confirmed exoplanets relative to western constellations.\nExomap is a celestial map of exoplanets accessible via an HTML/Javascript page. Its interactivity it engages users in the discovery of exoplanets, enabling astronomy-enthusiasts to better understand the where, when, and how of exoplanet detection through their own exploration. The exoplanet data comes from NASA’s Exoplanet Archive, downloaded on March 3, 2022, as a CSV. I used Python to subset exoplanet entries recognized as having default parameters to avoid duplicate planets and calculated longitude from right ascension and latitude from declination. I used d3 to load this cleansed CSV data and build a geojson compatible with Mapbox.\nExomap does not reflect actual distances between exoplanets but rather where exoplanets appear with telescopic vision from earth. A custom black Mapbox stylesheet forms the base layer of the night sky. Layered over it is a JSON of constellations (from western culture) sourced from Olaf Frohn’s Github. The constellation background provides familiarity for users, context for the location of exoplanets appearing in the celestial sphere. This homocentric perspective of ‘looking up’ at a wider universe resonates with the theme “Local to Global” for MSc Individual Project.\nUpon loading, Exomap centers on the first exoplanet discovered in 1989. As the user shifts the Mapbox time slider, the timeline of discovery plays out before them, revealing the accumulating population of exoplanets confirmed each year. Only when set at 2022 does the map enumerate overlapping exoplanet symbols, indicating exoplanets that share the same host star (i.e. identical coordinates). This emphasizes the theme “Global to Local”, as it allows users to see how among over four thousand exoplanets, some are in the same ‘neighborhood’, akin to how there are multiple planets in our solar system.\nThe legend on the left of the screen indicates that different exoplanet symbol hues stand for different discovery methods, the most numerous being transit and radial velocity. Observing the spatial distribution of these method categories reveals interesting local patterns, such as numerous exoplanets discovered by the transit method at the Kepler facility in the direction of the Cygnus constellation, and a smaller cluster of exoplanets detected by the microlensing method in the direction of the Sagittarius constellation.\nHovering the cursor over a planet activates a Mapbox popup with the planet name and various details. Unfortunately for co-coordinate exoplanets, a popup activates only for one planet. Overall, Exomap shows both global trends of exoplanets and specific, local details about each planet.\nSources and References NASA Exoplanet Archive: https://exoplanetarchive.ipac.caltech.edu/, https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html Celestial Background Map Source: https://github.com/ofrohn/d3-celestial/blob/master/data/constellations.lines.json, https://github.com/ofrohn/d3-celestial/blob/master/data/constellations.json Converting longitude from right ascension: https://sciencing.com/calculate-longitude-right-ascension-6742230.html Build GeoJSON with D3.JS: CASA0003 Time Slider: https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/ Planet Clusters: https://docs.mapbox.com/mapbox-gl-js/example/cluster/ Legend: https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/ Popup: https://docs.mapbox.com/mapbox-gl-js/example/popup-on-hover/, https://gis.stackexchange.com/questions/253694/combining-popup-info-from-overlapping-polygons-in-mapbox-gl-js"
   },
   {
     "objectID": "posts/StoryMap/index.html",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nTransportation Emissions\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
+    "text": "Clancy’s Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nTransportation Emissions\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -74,6 +74,6 @@
     "href": "posts/EIE/index.html",
     "title": "Transportation Emissions",
     "section": "",
-    "text": "Link to Group Project"
+    "text": "Link to Project\nCode"
   }
 ]

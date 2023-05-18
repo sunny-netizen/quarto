@@ -6,4 +6,6 @@ categories: [D3, Fullpage JS, HTML, CSS]
 image: "button-energy.png"
 ---
 
-[Link to Group Project](EIE.html)
+[Link to Project](posts/EIE.html)
+
+[Code]()
