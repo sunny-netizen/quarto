@@ -1,15 +1,16 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "suncloud TM"
+  title: git "suncloud"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/sunny-netizen
+      #- icon: twitter
+       # href: https://twitter.com
 format:
   html:
     theme: minty

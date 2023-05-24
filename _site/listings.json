@@ -2,8 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/MidnightGospel/index.html",
       "/posts/EIE/index.html",
+      "/posts/MidnightGospel/index.html",
       "/posts/Watershed/index.html",
       "/posts/Dendrogram/index.html",
       "/posts/Percolation/index.html",

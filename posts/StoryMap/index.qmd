@@ -1,11 +1,15 @@
 ---
 title: "StoryMap"
 author: "suncloud"
-date: "2021"
+date: "2021-12"
 categories: [D3, Mapbox, HTML, CSS]
-image: "image.jpg"
+image: "storymap.png"
 ---
 
 ESRI ArcGIS StoryMap for local nonprofit.
 
-Created a StoryMap for Ballona Creek Renaissance marketing and fundraising.
+![](storymap.png)
+
+[Link to Project](https://arcg.is/08iCWq)
+
+Created a StoryMap for [Ballona Creek Renaissance](https://ballonacreek.org/) marketing and fundraising.

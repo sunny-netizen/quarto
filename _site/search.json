@@ -4,7 +4,7 @@
     "href": "posts/Dendrogram/index.html",
     "title": "Dendrogram",
     "section": "",
-    "text": "A tree of road network clusters in Europe.\nHierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. Visualization from dissertation.\nLink to Project"
+    "text": "Hierarchical structure of road network of Europe.\nLink to Project\nHierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. This was visualized for my dissertation."
   },
   {
     "objectID": "posts/Energy/index.html",
@@ -18,12 +18,12 @@
     "href": "posts/Percolation/index.html",
     "title": "Percolation",
     "section": "",
-    "text": "Percolation process on the City of London road network.\nCode is based on dissertation.\nLink to Project"
+    "text": "Percolation process on the City of London road network.\n\nLink to Project\nThis is a mini version of percolation analysis used in my dissertation."
   },
   {
     "objectID": "posts/Dissertation/index.html",
     "href": "posts/Dissertation/index.html",
-    "title": "Dissertation",
+    "title": "Road Network of Europe",
     "section": "",
     "text": "Dissertation: “Genetic and Cultural Correspondences with the European Road Network”\n\nAbstract\nRoad systems provide a compelling study for understanding the spatial characteristics of community structures. Road systems are historically entangled with populations across the land and have developed through centuries of creation, re-creation, destruction, and modification resulting from multi-scale dynamics and processes. Percolation analysis is an emerging method for detecting endogenous structures and hierarchical organisation in road networks, yielding nested spatial structures that have been found to correspond with communities across scales in some facets of human geography. The exploration of further facets of human geography, such as genetic and cultural geography, is inviting, as these correspondences may shed greater light on the natural relationship between human communities and road systems. This study thus seeks to compare spatial patterns in genetic and cultural values with the latest road network data of continental Europe, a largely continuous network with a legacy persisting across millenia. Implementing a percolation analysis, identifying stages of largest cluster size evolution, and deriving a hierarchical tree from critical percolation thresholds, this study first explores the structure of the road network then quantifies its associations with genetics and cultural geography with phenetic analysis, revealing a weak positive linear correlation between cultural values difference and hierarchical distance and a weak but slightly stronger positive linear correlation between genetic difference and cophenetic distance. These results suggest that levels of connectivity in the road network are more associated with genetics than cultural values, although both signals are weak.\nLink to Code"
   },
@@ -32,14 +32,14 @@
     "href": "posts/Watershed/index.html",
     "title": "Watershed",
     "section": "",
-    "text": "Opening shot contribution for sustainability video.\nThe Culver City Unified School District (CCUSD) Green Video Project is an educational sustainability video that communicates the importance of the local Ballona Creek Watershed. It was awarded two grants for completion, one from Rotary Culver City and one from Ballona Creek Renaissance.\nI was brought on to create an animation showing the position of the school district within the Ballona Creek Watershed, continuing where drone footage ended.\nVersion 1 was an exploratory demo created prior to shooting the drone footage. I was tasked to include several checkpoints within the frames. The path of the virtual camera spirals out.\nVersion 2 was created after the drone footage was shot. The animation is set to begin matching the same view where the drone footage cuts. The virtual camera zooms out to encompass the entire the watershed."
+    "text": "Opening shot contribution for sustainability video.\n\nThe Culver City Unified School District (CCUSD) Green Video Project is an educational sustainability video that communicates the importance of the local Ballona Creek Watershed. It was awarded two grants for completion, one from Rotary Culver City and one from Ballona Creek Renaissance.\nI was brought on to create an animation showing the position of the school district within the Ballona Creek Watershed, continuing where drone footage ended.\nVersion 1 was an exploratory demo created prior to shooting the drone footage. I was tasked to include several checkpoints within the frames. The path of the virtual camera spirals out.\nVersion 2 was created after the drone footage was shot. The animation is set to begin matching the same view where the drone footage cuts. The virtual camera zooms out to encompass the entire the watershed."
   },
   {
     "objectID": "posts/MidnightGospel/index.html",
     "href": "posts/MidnightGospel/index.html",
     "title": "Clancy’s Simulator",
     "section": "",
-    "text": "Astronomical data with a The Midnight Gospel theme.\nConcept: Exoplanets cast as “Dying Worlds” in Clancy’s Multiverse Simulator.\nLink to Project Link to code"
+    "text": "The Midnight Gospel + astronomical data.\nObjective: Inspired to devise a dataviz emulating Clancy’s Multiverse Simulator.\nSolution: Cast exoplanets as “Dying Worlds” in the Simulator database.\n\nLink to Project Link to code"
   },
   {
     "objectID": "posts/ExoMap/index.html",
@@ -53,27 +53,27 @@
     "href": "posts/StoryMap/index.html",
     "title": "StoryMap",
     "section": "",
-    "text": "ESRI ArcGIS StoryMap for local nonprofit.\nCreated a StoryMap for Ballona Creek Renaissance marketing and fundraising."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Clancy’s Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nTransportation Emissions\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDissertation\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
+    "text": "ESRI ArcGIS StoryMap for local nonprofit.\n\nLink to Project\nCreated a StoryMap for Ballona Creek Renaissance marketing and fundraising."
   },
   {
     "objectID": "posts/EIE/index.html",
     "href": "posts/EIE/index.html",
     "title": "Transportation Emissions",
     "section": "",
-    "text": "Link to Project\nCode"
+    "text": "Sankey Chart and Road Map for Santa Monica data.\n\nData Source: Google Environmental Insights Explorer.\nLink to Project Code\n\nModes in Santa Monica Road Network\nImport Libraries\n\nimport pandas as pd\nimport geopandas as gpd\nimport networkx as nx\nimport osmnx as ox\nimport matplotlib.pyplot as plt\nimport matplotlib.lines as mlines\n\nDownload OpenStreetMap Data\n\n# Define the place name or address\nplace = \"Santa Monica, California, USA\"\n\n# Retrieve the road network for the place\nG = ox.graph_from_place(place, network_type='all', buffer_dist=1000)\n\n# Retrieve the boundary polygon for the place\nboundary = ox.geocode_to_gdf(place)\n\n# Plot the road network within the boundary\nfig, ax = plt.subplots()\nox.plot_graph(G, bgcolor='w', edge_color='gray', node_size=0, ax=ax)\nboundary.plot(ax=ax, edgecolor='black', facecolor='none', linewidth=2)\nplt.show();\n\n\n\n\n<Figure size 672x480 with 0 Axes>\n\n\nAcquire data as GeoDataFrames\n\n# Convert the NetworkX graph to GeoDataFrames\nnodes, edges = ox.graph_to_gdfs(G)\n\n# Look at the data columns\nedges.columns\n\n# Look at counts per edge type\nedge_types = edges['highway'].value_counts()\nedge_types\n\nfootway                          10472\nservice                           9159\nresidential                       7450\ntertiary                          2536\nsecondary                         1346\nprimary                            993\ncycleway                           336\nunclassified                       232\n[steps, footway]                   148\npedestrian                          84\npath                                76\ntrunk                               50\nsteps                               42\nmotorway_link                       38\nsecondary_link                      31\n[residential, service]              27\n[residential, footway]              26\n[path, footway]                     16\nmotorway                            15\ntrunk_link                          13\n[footway, service]                  12\n[service, footway]                  12\ntertiary_link                       10\n[residential, path]                 10\n[unclassified, service]              8\nprimary_link                         6\n[footway, pedestrian]                6\n[steps, path]                        6\n[footway, cycleway]                  4\n[steps, residential, footway]        4\n[steps, pedestrian]                  4\n[service, cycleway]                  2\n[steps, residential]                 2\n[steps, footway, corridor]           2\n[residential, tertiary]              2\ntrack                                2\n[track, footway]                     2\n[steps, path, footway]               2\nName: highway, dtype: int64\n\n\n\n# Generalize highway types\n# https://wiki.openstreetmap.org/wiki/Tag:highway%3Dpedestrian\nedges['highway'] = edges['highway'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)\nedges['highway'] = edges['highway'].str.replace('footway|steps|pedestrian|corridor|track', 'path')\nedges['highway'] = edges['highway'].str.replace('roads_link|motorway_link|trunk_link|primary_link|secondary_link|motorway_junction', 'roads')\nedges['highway'] = edges['highway'].str.replace('motorway|trunk|primary|secondary|tertiary|unclassified|residential|service', 'roads')\nedges.loc[edges['highway'].str.contains('roads'), 'highway'] = 'roads'\nedges.loc[edges['highway'].str.contains('cycleway'), 'highway'] = 'cycleway'\nedges.loc[edges['highway'].str.contains('path'), 'highway'] = 'path'\nedge_types = edges['highway'].value_counts()\nedge_types\n\n/var/folders/13/hf_sfnls1lq6kn8vsc92q40h0000gn/T/ipykernel_8329/3233845876.py:4: FutureWarning:\n\nThe default value of regex will change from True to False in a future version.\n\n/var/folders/13/hf_sfnls1lq6kn8vsc92q40h0000gn/T/ipykernel_8329/3233845876.py:5: FutureWarning:\n\nThe default value of regex will change from True to False in a future version.\n\n/var/folders/13/hf_sfnls1lq6kn8vsc92q40h0000gn/T/ipykernel_8329/3233845876.py:6: FutureWarning:\n\nThe default value of regex will change from True to False in a future version.\n\n\n\nroads       21984\npath        10862\ncycleway      340\nName: highway, dtype: int64\n\n\nColor-code roads by type\n\n#https://stackoverflow.com/questions/63102436/coloring-edges-in-osmnx-graph-based-on-edge-attribute\n\n# get one color for each highway type in the graph\ncolor_list = ['#B0CFDE','green','red'] #\n#color_list = ox.plot.get_colors(n=len(edge_types), cmap='hsv', return_hex=True)\n#color_list = ['#00e600','#ffcc99','fuchsia']\n#color_list = ['#ccccff','green','magenta']\n#color_list = ['white','lime','magenta']\ncolor_mapper = pd.Series(color_list, index=edge_types.index).to_dict()\nedges['color'] = edges['highway'].map(color_mapper)\n\nPlot details\n\n# check the bounds for xlim and ylim\nminx , miny , maxx , maxy = edges.total_bounds # = [-118.5250193,   33.9888725, -118.4328995,   34.0586015]\n\n# custom legend\nblack_line = mlines.Line2D([], [], color='black', label='City Boundary')\nblue_line = mlines.Line2D([], [], color='#B0CFDE', label='Road')\ngreen_line = mlines.Line2D([], [], color='green', label='Path')\nred_line = mlines.Line2D([], [], color='red', label='Cycleway')\n\n\nfig, ax = plt.subplots(figsize=(10, 8))\nedges.plot(ax=ax, color = edges['color'], linewidth=0.5, zorder=1);\nboundary.plot(ax=ax, edgecolor='black', color='none', zorder=10);\nax.legend(handles=[black_line,blue_line,green_line,red_line], bbox_to_anchor=(1.2, 1.1)) #loc='lower left',\nax.set_ylim(miny, maxy)\nax.set_xlim(minx, maxx)\n#ax.set_xticklabels([])\n#ax.set_yticklabels([])\n#ax.spines['top'].set_visible(False)\n#ax.spines['right'].set_visible(False)\n#ax.spines['bottom'].set_visible(False)\n#ax.spines['left'].set_visible(False)\nax.axis('off')\nplt.show();"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "portfolio",
+    "section": "",
+    "text": "Transportation Emissions\n\n\n\n\n\n\n\nD3\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nClancy’s Simulator\n\n\n\n\n\n\n\nD3 HTML CSS\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nWatershed\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nDendrogram\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nPercolation\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nFeb 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nRoad Network of Europe\n\n\n\n\n\n\n\nD3\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nExoMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nEnergy Prices\n\n\n\n\n\n\n\nD3\n\n\nFullpage JS\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2022\n\n\nsuncloud\n\n\n\n\n\n\n  \n\n\n\n\nStoryMap\n\n\n\n\n\n\n\nD3\n\n\nMapbox\n\n\nHTML\n\n\nCSS\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2021\n\n\nsuncloud\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "suncloud"
   }
 ]

@@ -3,11 +3,13 @@ title: "Percolation"
 author: "suncloud"
 date: "2023-02"
 categories: [D3, Mapbox, HTML, CSS]
-image: "image.jpg"
+image: "cityoflondon.png"
 ---
 
 Percolation process on the City of London road network.
 
-Code is based on dissertation.
+![](cityoflondon.png)
 
 [Link to Project](https://sunny-netizen.github.io/portfolio/html/london.html)
+
+This is a mini version of percolation analysis used in my dissertation.

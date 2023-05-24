@@ -1,11 +1,124 @@
 ---
 title: "Transportation Emissions"
 author: "suncloud"
-date: "2023-05"
-categories: [D3, Fullpage JS, HTML, CSS]
-image: "button-energy.png"
+date: "2023-06"
+categories: [D3, HTML, CSS]
+image: "sankey.png"
 ---
 
-[Link to Project](posts/EIE.html)
+Sankey Chart and Road Map for Santa Monica data.
 
-[Code]()
+![](sankey.png)
+
+Data Source: Google Environmental Insights Explorer.
+
+[Link to Project](https://sunny-netizen.github.io/GHG/) [Code](https://github.com/sunny-netizen/GHG)
+
+### Modes in Santa Monica Road Network
+
+Import Libraries
+
+```{python}
+import pandas as pd
+import geopandas as gpd
+import networkx as nx
+import osmnx as ox
+import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
+```
+
+Download OpenStreetMap Data
+
+```{python}
+
+# Define the place name or address
+place = "Santa Monica, California, USA"
+
+# Retrieve the road network for the place
+G = ox.graph_from_place(place, network_type='all', buffer_dist=1000)
+
+# Retrieve the boundary polygon for the place
+boundary = ox.geocode_to_gdf(place)
+
+# Plot the road network within the boundary
+fig, ax = plt.subplots()
+ox.plot_graph(G, bgcolor='w', edge_color='gray', node_size=0, ax=ax)
+boundary.plot(ax=ax, edgecolor='black', facecolor='none', linewidth=2)
+plt.show();
+```
+
+Acquire data as GeoDataFrames
+
+```{python}
+
+# Convert the NetworkX graph to GeoDataFrames
+nodes, edges = ox.graph_to_gdfs(G)
+
+# Look at the data columns
+edges.columns
+
+# Look at counts per edge type
+edge_types = edges['highway'].value_counts()
+edge_types
+```
+
+```{python}
+# Generalize highway types
+# https://wiki.openstreetmap.org/wiki/Tag:highway%3Dpedestrian
+edges['highway'] = edges['highway'].apply(lambda x: ', '.join(x) if isinstance(x, list) else x)
+edges['highway'] = edges['highway'].str.replace('footway|steps|pedestrian|corridor|track', 'path')
+edges['highway'] = edges['highway'].str.replace('roads_link|motorway_link|trunk_link|primary_link|secondary_link|motorway_junction', 'roads')
+edges['highway'] = edges['highway'].str.replace('motorway|trunk|primary|secondary|tertiary|unclassified|residential|service', 'roads')
+edges.loc[edges['highway'].str.contains('roads'), 'highway'] = 'roads'
+edges.loc[edges['highway'].str.contains('cycleway'), 'highway'] = 'cycleway'
+edges.loc[edges['highway'].str.contains('path'), 'highway'] = 'path'
+edge_types = edges['highway'].value_counts()
+edge_types
+```
+
+Color-code roads by type
+
+```{python}
+#https://stackoverflow.com/questions/63102436/coloring-edges-in-osmnx-graph-based-on-edge-attribute
+
+# get one color for each highway type in the graph
+color_list = ['#B0CFDE','green','red'] #
+#color_list = ox.plot.get_colors(n=len(edge_types), cmap='hsv', return_hex=True)
+#color_list = ['#00e600','#ffcc99','fuchsia']
+#color_list = ['#ccccff','green','magenta']
+#color_list = ['white','lime','magenta']
+color_mapper = pd.Series(color_list, index=edge_types.index).to_dict()
+edges['color'] = edges['highway'].map(color_mapper)
+
+
+```
+
+Plot details
+
+```{python}
+# check the bounds for xlim and ylim
+minx , miny , maxx , maxy = edges.total_bounds # = [-118.5250193,   33.9888725, -118.4328995,   34.0586015]
+
+# custom legend
+black_line = mlines.Line2D([], [], color='black', label='City Boundary')
+blue_line = mlines.Line2D([], [], color='#B0CFDE', label='Road')
+green_line = mlines.Line2D([], [], color='green', label='Path')
+red_line = mlines.Line2D([], [], color='red', label='Cycleway')
+```
+
+```{python}
+fig, ax = plt.subplots(figsize=(10, 8))
+edges.plot(ax=ax, color = edges['color'], linewidth=0.5, zorder=1);
+boundary.plot(ax=ax, edgecolor='black', color='none', zorder=10);
+ax.legend(handles=[black_line,blue_line,green_line,red_line], bbox_to_anchor=(1.2, 1.1)) #loc='lower left',
+ax.set_ylim(miny, maxy)
+ax.set_xlim(minx, maxx)
+#ax.set_xticklabels([])
+#ax.set_yticklabels([])
+#ax.spines['top'].set_visible(False)
+#ax.spines['right'].set_visible(False)
+#ax.spines['bottom'].set_visible(False)
+#ax.spines['left'].set_visible(False)
+ax.axis('off')
+plt.show();
+```

@@ -6,9 +6,12 @@ categories: [D3 HTML CSS]
 image: "Kepler89d.png"
 ---
 
-Astronomical data with a *The Midnight Gospel* theme.
+*The Midnight Gospel* + astronomical data.
 
-Concept: Exoplanets cast as "Dying Worlds" in Clancy's Multiverse Simulator.
+Objective: Inspired to devise a dataviz emulating Clancy's Multiverse Simulator.
 
-[Link to Project](https://sunny-netizen.github.io/midnightgospel/)
-[Link to code](https://sunny-netizen.github.io/midnightgospel/)
+Solution: Cast exoplanets as "Dying Worlds" in the Simulator database.
+
+![](Kepler89d.png)
+
+[Link to Project](https://sunny-netizen.github.io/midnightgospel/) [Link to code](https://sunny-netizen.github.io/midnightgospel/)

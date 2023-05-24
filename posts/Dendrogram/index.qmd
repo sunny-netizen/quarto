@@ -6,8 +6,8 @@ categories: [D3]
 image: "tree.png"
 ---
 
-A tree of road network clusters in Europe.
-
-Hierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. Visualization from dissertation.
+Hierarchical structure of road network of Europe.
 
 [Link to Project](https://sunny-netizen.github.io/portfolio/html/tree.html)
+
+Hierarchical tree visualizes the mergers of percolation clusters of the road network of continental Europe. This was visualized for my dissertation.

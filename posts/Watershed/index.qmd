@@ -3,10 +3,12 @@ title: "Watershed"
 author: "suncloud"
 date: "2023-04"
 categories: [D3, Mapbox, HTML, CSS]
-image: "image.jpg"
+image: "green.png"
 ---
 
 Opening shot contribution for sustainability video.
+
+![](green.png)
 
 The Culver City Unified School District (CCUSD) Green Video Project is an educational sustainability video that communicates the importance of the local Ballona Creek Watershed. It was awarded two grants for completion, one from Rotary Culver City and one from Ballona Creek Renaissance.
 
