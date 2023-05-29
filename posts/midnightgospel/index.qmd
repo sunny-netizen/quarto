@@ -2,7 +2,7 @@
 title: "Clancy's Simulator"
 author: "suncloud"
 date: "2023-05"
-categories: [D3 HTML CSS]
+categories: [D3, HTML, CSS]
 image: "Kepler89d.png"
 ---
 

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+    <link href="../css/green.css" rel="stylesheet"/>
+
+    <style>
+        body { margin: 0; padding: 0; background-color: black;}
+        #map { position: absolute; margin: auto; aspect-ratio: 16 / 9;}
+    </style>
+
+</head>
+<body>
+    <style>
+        .fly {
+            display: inline;
+            position: relative;
+            margin: 0px 10px;
+            width: 8%;
+            height: 20px;
+            padding: 0px;
+            border: none;
+            border-radius: 3px;
+            font-size: 12px;
+            text-align: center;
+            color: #fff;
+            background: #ee8a65;
+        }
+    </style>
+    <div id="map"></div>
+    <br>
+    <button class="fly" id="fly1">Fly1</button>
+    <button class="fly" id="fly2">Fly2</button>
+    <button class="fly" id="ccusd">ccusd</button>
+    <button class="fly" id="fly3">Fly3</button>
+    <button class="fly" id="water">water</button>
+
+<script>
+// The value for 'accessToken' begins with 'pk...'
+mapboxgl.accessToken = 'pk.eyJ1IjoieXVuemhhbzIxIiwiYSI6ImNreWxnbDR2ejF5MjIyd3AwNXA1cDl1eGsifQ.64sJi7Q8xOekHT7A6IljEQ'; 
+
+// These options control the camera position after animation
+const auditorium1 = {
+center: [-118.40261, 34.0073],
+zoom: 20.1,
+pitch: 45,
+bearing: 270
+};
+
+const bridge = {
+center: [-118.3984, 34.00625],
+zoom: 19,
+pitch: 70,
+bearing: 270
+};
+
+const ccusd = {
+center: [-118.4, 34.007],
+zoom: 14.3,
+pitch: 65,
+bearing: 280
+};
+
+const watershed = {
+// center: [74.5, 40],
+// zoom: 2
+center: [-118.42, 34.0],
+zoom: 11.9,
+pitch: 65,
+bearing: 30
+};
+
+
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/yunzhao21/cla5lxwwq002a14l7tlfl0p6w', //style url
+    center: [-118.40261, 34.0073],
+    zoom: 20.1,
+    pitch: 45,
+    bearing: 270
+});
+
+map.on('load', () => {
+const styleJson = map.getStyle();
+console.log(styleJson)
+map.setLayoutProperty('ccusd-af7p96', 'visibility', 'none');
+map.setLayoutProperty('channels-shapefile-0t8g2v', 'visibility', 'none'); 
+});
+
+map.on('idle', () => {
+// If these two layers were not added to the map, abort
+if (!map.getLayer('ccusd-af7p96') || !map.getLayer('channels-shapefile-0t8g2v')) {
+console.log('no');
+return;
+} else {
+    console.log('yes');
+}})
+
+// magic 
+document.getElementById('ccusd').addEventListener('click', () => {
+    map.setLayoutProperty('ccusd-af7p96', 'visibility', 'visible');
+});
+document.getElementById('ccusd').addEventListener('click', () => {
+    map.setLayoutProperty('channels-shapefile-0t8g2v', 'visibility', 'visible');
+});
+
+// flying
+let isAtStart = true;
+let isAtStart2 = true;
+ 
+document.getElementById('fly1').addEventListener('click', () => {
+    // depending on whether we're currently at point a or b, aim for point a or b
+    const target = isAtStart ? bridge : auditorium1; //if isAtStart true, flyto end; else, flyto start
+    isAtStart = !isAtStart; // set isAtStart to its opposite with click
+
+    map.flyTo({
+    ...target, // Fly to the selected target
+    duration: 10000, // Animate over 12 seconds
+    essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+    curve: 1
+    });
+});
+
+document.getElementById('fly2').addEventListener('click', () => {
+    // depending on whether we're currently at point a or b, aim for point a or b
+    const target = isAtStart ? ccusd : bridge; //if isAtStart true, flyto end; else, flyto start
+    isAtStart = !isAtStart; // set isAtStart to its opposite with click
+    
+    map.flyTo({
+    ...target, // Fly to the selected target
+    duration: 8000, // Animate over 12 seconds
+    essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+    curve: 2
+    });
+
+    //var node = this;
+    //setTimeout(function() {
+        //node.parentNode.parentNode.style.outline = node.parentNode.parentNode.dataset.ans_outline;
+       //map.setLayoutProperty('ccusd-af7p96', 'visibility', 'visible');
+    //}, 1000)
+});
+
+
+document.getElementById('fly3').addEventListener('click', () => {
+    // depending on whether we're currently at point a or b, aim for point a or b
+    const target = isAtStart ? watershed : ccusd; //if isAtStart true, flyto end; else, flyto start
+    isAtStart = !isAtStart; // set isAtStart to its opposite with click
+    
+    map.flyTo({
+    ...target, // Fly to the selected target
+    duration: 8000, // Animate over 12 seconds
+    essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+    curve: 1
+    });
+});
+
+
+
+</script>
+</body>
+</html>
+
+
+

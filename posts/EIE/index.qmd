@@ -3,16 +3,16 @@ title: "Transportation Emissions"
 author: "suncloud"
 date: "2023-06"
 categories: [D3, HTML, CSS]
-image: "sankey.png"
+image: "sankey3.png"
 ---
 
 Sankey Chart and Road Map for Santa Monica data.
 
-![](sankey.png)
-
-Data Source: Google Environmental Insights Explorer.
+![](sankey3.png)
 
 [Link to Project](https://sunny-netizen.github.io/GHG/) [Code](https://github.com/sunny-netizen/GHG)
+
+Data Source: Google Environmental Insights Explorer.
 
 ### Modes in Santa Monica Road Network
 
