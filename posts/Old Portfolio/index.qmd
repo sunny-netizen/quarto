@@ -2,7 +2,7 @@
 title: "Portfolio"
 author: "suncloud"
 date: "2023-02"
-categories: [HTML, CSS]
+categories: [D3, Mapbox, HTML, CSS]
 image: "oldportfolio.png"
 ---
 
@@ -12,4 +12,4 @@ Old version of portfolio.
 
 [Link to Project](sunny-netizen.github.io/portfolio/)
 
-Decision to move to Quarto.
+Decision to use Quarto.

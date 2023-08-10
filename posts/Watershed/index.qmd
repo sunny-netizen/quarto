@@ -2,7 +2,7 @@
 title: "Watershed"
 author: "suncloud"
 date: "2023-04"
-categories: [Mapbox, D3, HTML, CSS]
+categories: [D3, Mapbox, HTML, CSS]
 image: "green.png"
 ---
 
