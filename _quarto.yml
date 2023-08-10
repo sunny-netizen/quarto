@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: /docs
 website:
-  title: "suncloud"
+  title: "SunCloud Sunny Yun Zhao"
   navbar:
     right:
       - about.qmd

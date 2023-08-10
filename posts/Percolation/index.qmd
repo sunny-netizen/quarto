@@ -2,7 +2,7 @@
 title: "Percolation"
 author: "suncloud"
 date: "2023-02"
-categories: [D3, Mapbox, HTML, CSS]
+categories: [Python, JavaScript]
 image: "cityoflondon.png"
 ---
 

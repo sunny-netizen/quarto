@@ -2,7 +2,7 @@
 title: "StoryMap"
 author: "suncloud"
 date: "2021-12"
-categories: [D3, Mapbox, HTML, CSS]
+categories: [Esri ArcGIS Online StoryMaps]
 image: "storymap.png"
 ---
 
